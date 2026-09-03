@@ -1,0 +1,4 @@
+interface:
+  display_name: "Axis creative agency"
+  short_description: "Plan, direct and review ads with human approvals"
+  default_prompt: "Use $axis-creative-agency to continue this client campaign at the next authorised phase."

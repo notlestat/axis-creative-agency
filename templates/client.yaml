@@ -1,0 +1,33 @@
+name: {{name}}
+website: UNKNOWN
+industry: UNKNOWN
+market: UNKNOWN
+product: UNKNOWN
+offer: UNKNOWN
+audience:
+  primary: UNKNOWN
+  secondary: UNKNOWN
+brand:
+  positioning: UNKNOWN
+  personality: UNKNOWN
+  tone: UNKNOWN
+  visual_style: UNKNOWN
+  colours: []
+  typography: UNKNOWN
+  restrictions: []
+creative:
+  preferred_styles: []
+  avoid: []
+  humour: UNKNOWN
+  aggressiveness: UNKNOWN
+  realism: UNKNOWN
+  pace: UNKNOWN
+platforms: []
+business:
+  average_order_value: UNKNOWN
+  target_customer_value: UNKNOWN
+  primary_conversion: UNKNOWN
+  primary_goal: UNKNOWN
+creative_learnings: []
+# Empty lists mean not yet supplied, not confirmed absence.
+# Known facts need provenance in knowledge/brand.md or campaign evidence-log.md.

@@ -1,0 +1,16 @@
+clients/*
+!clients/.gitkeep
+.local/
+.lavish/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.ruff_cache/
+.env
+.env.*
+*.mp4
+*.mov
+*.wav
+*.zip
