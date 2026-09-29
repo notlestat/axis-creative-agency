@@ -1,4 +1,6 @@
-# Axis creative agency
+# Axis creative agency, historical campaign workflow
+
+This repository preserves the earlier Axis campaign workflow. Corey Kavanagh is the current practice; [creative-intelligence](https://github.com/notlestat/creative-intelligence) contains the later workflow for brands, artists and releases. Commands and skill names below match this historical checkout.
 
 An internal Codex workflow for advertising research, strategy, campaign ideas, art direction, Melius briefs and creative review. You make the final creative decisions. Melius makes the assets. Your separate Axis post-production workflow receives the approved handoff.
 
@@ -23,6 +25,13 @@ Open this project in Codex and say:
 "Develop concept 3" means refine it. It does not select a winner. The mock campaign intentionally stops before approval.
 
 ## Start here
+
+```sh
+git clone https://github.com/notlestat/axis-creative-agency.git
+cd axis-creative-agency
+python3 tools/agency.py --help
+```
+
 
 Read [the fictional mock comparison](examples/fieldnote/clients/fieldnote/projects/one-line/04_concepts/concept-comparison.md). All customer insights and product details in it are declared fictional assumptions, not research findings. No Melius credits were used.
 
@@ -69,7 +78,15 @@ Client data is ignored by Git. The distributable package includes only the ficti
 
 ## Verification
 
-The runtime has no third-party dependencies. For contributor linting and YAML/skill validation, install `requirements-dev.txt` in an isolated environment.
+The runtime has no third-party dependencies. For contributor linting and YAML/skill validation, install `requirements-dev.txt` in an isolated environment:
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-dev.txt
+```
+
+Then run:
 
 ```sh
 python3 -m unittest discover -s tests -v
