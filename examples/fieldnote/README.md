@@ -1,5 +1,13 @@
-# Fictional demonstration
+# Fictional campaign demonstration
 
-Start with clients/fieldnote/projects/one-line/04_concepts/concept-comparison.md. The workflow ran through filled intake, declared research assumptions, strategy and five concepts. Every later phase is empty. No approval ledger exists and no Melius credits were spent.
+This example contains filled intake, declared research assumptions, strategy, and five concepts. Later phases are empty. No approval ledger exists and no Melius credits were spent.
 
-To continue this example, operate with `--root examples/fieldnote` from the agency repository. The normal default root contains real client work and should remain separate. Only explicit human concept approval permits art direction.
+Start with [the concept comparison](clients/fieldnote/projects/one-line/04_concepts/concept-comparison.md). Product details and audience claims are fictional assumptions, not client evidence.
+
+To inspect its workflow state, run from the repository root:
+
+```sh
+python3 tools/agency.py --root examples/fieldnote status fieldnote one-line
+```
+
+Use that explicit root for any work on the demonstration. Keep real client work separate. Art direction requires an explicit human concept decision.

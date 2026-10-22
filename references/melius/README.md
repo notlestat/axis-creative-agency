@@ -1,5 +1,7 @@
 # Melius documentation
 
-No Melius documentation was supplied with this project. The adapter outputs universal production briefs. Add supplied documentation here and record its origin, date/version and confirmed capabilities. Do not infer syntax from another generator.
+This checkout contains no supplied Melius capability documentation. Its adapter produces universal production briefs without assuming provider-specific syntax or known prices.
 
-Actual client/provider documents should remain local when confidential. Add local documents under `.local/melius/` if they must never be committed, then point the campaign intake at that path. Read those files before briefing. No API credential is needed by this system.
+Record the origin, date, version, and confirmed capabilities of any documentation you add. Keep confidential documents under `.local/melius/`, which is excluded from Git, and reference that path in the campaign intake. Do not store credentials in project files.
+
+Read the supplied documentation before preparing a production brief. Preparation does not authorise generation or credit spend.
