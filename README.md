@@ -4,7 +4,7 @@ A file-based Codex workflow for advertising research, strategy, campaign concept
 
 ## Open the workflow
 
-Download or clone this repository using GitHub's **Code** menu, then open the checkout in Codex. Use Python 3.9+ for the CLI; its runtime uses the standard library.
+Download or clone this repository using GitHub's **Code** menu, then open the checkout in Codex. Use Python 3.9+ for the CLI. Its runtime uses only the standard library.
 
 Read [AGENTS.md](AGENTS.md), [SKILL.md](SKILL.md), and [the command reference](references/commands.md). From the checkout, inspect the available commands:
 
@@ -20,7 +20,7 @@ python3 tools/agency.py --root /path/to/workspace start-campaign acme launch --n
 python3 tools/agency.py --root /path/to/workspace status acme launch
 ```
 
-Replace the sample workspace and client details before use. The tool creates drafts; filling a template does not establish completed research or approval.
+Replace the sample workspace and client details before use. The tool creates drafts. A filled template is not evidence of completed research or approval.
 
 ## Develop a campaign
 
